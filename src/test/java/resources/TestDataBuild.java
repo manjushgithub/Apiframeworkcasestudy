@@ -8,12 +8,12 @@ import java.util.List;
 
 public class TestDataBuild {
 
-    public  addplace addplacepayload() {
+    public  addplace addplacepayload(String name,String language,String address) {
         addplace p = new addplace();
         p.setAccuracy(50);
-        p.setAddress("29, side layout, cohen 09");
-        p.setLanguage("French-IN");
-        p.setName("Frontline house");
+        p.setAddress(address);
+        p.setLanguage(language);
+        p.setName(name);
         p.setPhone_number("(+91) 983 893 3937");
         List<String> mylist = new ArrayList<>();
         mylist.add("shoe park");
